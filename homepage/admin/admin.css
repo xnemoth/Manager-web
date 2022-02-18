@@ -1,0 +1,97 @@
+*{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    overflow: scroll;
+}
+
+.ms-1.d-none.d-sm-inline{
+    font-weight: bolder;
+}
+
+body{
+    background-color:white;
+}
+
+.col-auto.col-md-3{
+    width: 22%;
+    position: fixed;
+}
+
+.col,py-3{
+    margin-left: 22%;
+    width: 78%;
+    background-color: white;
+    text-align: center;
+}
+
+.d-flex.flex-column{
+    background-color: rgb(225, 238, 250);
+    height: 100%;
+}
+
+.form-label{
+    margin: 0px 20px;
+}
+
+.admin-btn{
+    width: 120px;
+}
+
+.hiddentr{
+    display: none;
+}
+
+.input-group{
+    border: 3px solid #0D6EFD;
+    margin: 0px 20px 0px 10px;
+    width: 30%;
+    height: 69px;
+}
+
+table,th,td{
+    font-size: 15px;
+    border: 2px solid #0D6EFD;
+    background-color: rgb(225, 238, 250);
+    vertical-align: middle;
+}
+
+.query-btn{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-around;
+}
+
+.query-box{
+    display: flex;
+    flex-direction: row;
+    align-items:  flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.query-info{
+    width: 100%;
+    border: 3px solid #0D6EFD;
+    height: 70px !important;
+    margin: 0px 20px 0px 10px;
+}
+
+th{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    width: 150px;
+}
+
+th,td{
+    padding: 5px;
+}
+
+.space{
+    margin: 20px 0px;
+}

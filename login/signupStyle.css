@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.space{
+    margin: 30px 0px;
+}
+
+.login-panel{
+    background-color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-form{
+    background-color: rgb(2, 156, 156);
+    justify-content: center;
+    width: 68.5vw;
+    height: auto;
+    box-shadow: 1px 2px 3px 1px rgba(68, 214, 228, 0.5);
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#email, #fullname, #magv, #sdt, #password, #repassword, #username, #access, #dv, #trinhdo, #chucvu, #ngach{
+    width: 29vw;
+    font-weight: bolder;
+}
+
+#gender{
+    font-weight: bolder;
+    text-align: left;
+    width: 8vw;
+}
+
+#ns{
+    font-weight: bolder;
+    width: 16vw;
+}
+
+.info-group{
+    display: inline-flex !important;
+}
+
+.head h3{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-top: 15px;
+}
+
+.form-label{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+.d-grid{
+    margin: 0px 30px 15px 30px;
+}
+
+.form-floating{
+    margin: 0px 30px 0px 30px;
+}
+
+.PCResponsive{
+    text-align: center;
+    color: blue;
+    background-color: aliceblue;
+}
+
+.form-control{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    height: 55px !important;
+    font-size: 15px;
+}
+
+.form-control.form-select{
+    padding: 15px 15px 5px 12px !important;
+}
+
+@media(max-width: 400px){
+    .info-form{
+        width: auto;
+    }
+}
